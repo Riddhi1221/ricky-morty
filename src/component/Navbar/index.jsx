@@ -109,7 +109,7 @@ function Navbar() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
           <Typography
             variant="h5"
             noWrap
@@ -117,7 +117,7 @@ function Navbar() {
             href="#app-bar-with-responsive-menu"
             sx={{
               mr: 2,
-              display: { xs: 'flex', md: 'none' },
+              display: { xs: 'flex', md: 'none' , color:"#000"},
               flexGrow: 1,
               fontFamily: 'monospace',
               fontWeight: 700,
